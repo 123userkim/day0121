@@ -1,0 +1,9 @@
+create table board(
+	no number primary key,
+	title varchar2(20),
+	writer varchar2(20),
+	content varchar2(3000),
+	regdate date,
+	hit number,
+	fname varchar2(100)
+);
